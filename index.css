@@ -9,6 +9,7 @@
   justify-content: flex-start;
   background-image: url("public/feuilletest-1500w.png");
   background-position: center;
+  overflow-x: clip !important;
 }
 .home-header {
   width: 100%;
