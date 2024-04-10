@@ -25,12 +25,6 @@ document.addEventListener('mousemove', function(event) {
     });
   });
   
-  let CHECKED = false
-  document.addEventListener("pointerdown", e => {
-    CHECKED = !CHECKED
-    document.documentElement.style.setProperty("--light", CHECKED ? 1 : 0)
-  })
-
   document.addEventListener('scroll', function() {
     const scrollPosition = scrollY;
     const parallaxSections = document.querySelectorAll('.parallax-section');
